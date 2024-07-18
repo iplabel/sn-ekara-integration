@@ -1,0 +1,46 @@
+{
+    "alertStatus": "Start",
+    "alertType": "Failed",
+    "alertDesc": "An alert has been triggered for the scenario",
+    "scenario": {
+        "scenarioId": "3661f7c9-c742-4878-b36f-c57a2a862096",
+        "scenarioName": "IPL Ekara Website"
+    },
+    "startTime": "2023-08-21T16:35:29.000Z",
+    "endTime": null,
+    "alertId": "d486b6f2-4445-4020-8286-558e0fd9cf73",
+    "alertRuleId": 2471,
+    "triggerEvents": [
+        {
+            "executionId": "BHA74ZQBRC71BU79ENTXB03V30P.211",
+            "executedAt": "2023-08-21T16:35:29Z",
+            "scheduledAt": "2023-08-21T16:35:00Z",
+            "site": {
+                "siteId": "e30ea240-7f76-42e5-b041-a5779b200830",
+                "siteName": "Paris"
+            },
+            "steps": [
+                {
+                    "stepId": 3,
+                    "stepName": "Authentication",
+                    "errorMessages": [
+                        "Find action failed. Element 'Check' not found."
+                    ]
+                }
+            ]
+        }
+    ],
+    "end_alert_reasons": {
+        "reason": "",
+        "next_status": 2
+    },
+    "product": "Ekara by ip-label",
+    "application": {
+        "applicationId": "1682",
+        "applicationName": "Ekara Front"
+    },
+    "account": {
+        "accountId": "2",
+        "accountName": "Ekara ip-label"
+    }
+}

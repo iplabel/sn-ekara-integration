@@ -1,0 +1,37 @@
+{
+    "alertStatus": "End",
+    "alertType": "Failed",
+    "alertDesc": "An alert has been triggered for the scenario",
+    "scenario": {
+        "scenarioId": "3661f7c9-c742-4878-b36f-c57a2a862096",
+        "scenarioName": "IPL Ekara Website"
+    },
+    "startTime": "2023-08-21T16:35:29.000Z",
+    "endTime": "2023-08-22T11:55:02.000Z",
+    "alertId": "d486b6f2-4445-4020-8286-558e0fd9cf73",
+    "alertRuleId": 2471,
+    "triggerEvents": [
+        {
+            "executionId": "",
+            "executedAt": "",
+            "scheduledAt": "2023-08-22T11:59:20Z",
+            "site": {
+                "siteId": "e30ea240-7f76-42e5-b041-a5779b200830",
+                "siteName": "Paris"
+            }
+        }
+    ],
+    "end_alert_reasons": {
+        "reason": "Scenario stopped",
+        "next_status": 6
+    },
+    "product": "Ekara by ip-label",
+    "application": {
+        "applicationId": "1682",
+        "applicationName": "Application cva"
+    },
+    "account": {
+        "accountId": "2",
+        "accountName": "ip-label"
+    }
+}
