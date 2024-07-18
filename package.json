@@ -18,23 +18,18 @@
     "typescript": "~5.4.5"
   },
   "scripts": {
-    "clean": "rimraf build tmp ./build || true",
+    "clean": "rimraf build tmp || true",
     "build": "npm run clean && npm run lint && tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
     "lint": "eslint --ext .ts --fix src/**/*.ts",
     "prettier": "prettier --config .prettierrc --write .",
     "upgrade": "npx npm-check -u",
     "preversion": "npm run build",
-    "postversion": "git push && git push --tags",
-    "prepare": "npm run build"
+    "postversion": "git push && git push --tags"
   },
   "author": "Yassine NASYR",
   "license": "Apache-2.0",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
+  "config": {},
   "dependencies": {
     "tslib": "~2.6.3"
   },
