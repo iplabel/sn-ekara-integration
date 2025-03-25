@@ -29,7 +29,7 @@ This code is a template for integrating Ekara incident management with Serviceno
    `npm run build`
    or
    `pnpm run build`
-5. Copy the contents of the [link](./src/main.js).
+5. Copy the contents of the [link](./src/main.ts).
 6. Open the Scripted REST API configuration in your Servicenow instance and create a new scripted REST API.
 7. In the scripted REST API configuration, set the following properties:
 
